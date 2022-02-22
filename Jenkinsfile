@@ -9,7 +9,7 @@ pipeline {
                 }
             }
 
-            stage ('Compile Pro_Calculadora_Oliver') {
+            stage ('Compilando') {
                 steps {
                     sh "mvn -f pom.xml clean install -Dmaven.test.skip=true"   
                 }
